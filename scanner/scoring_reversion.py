@@ -6,6 +6,10 @@ Version 3 - Correcciones tras analisis externo (Kimi IA):
 - Calculo de objetivo con proyeccion ATR
 - Penalizacion a caidas recientes fuertes
 - Penalizacion a gran distancia del maximo anual
+
+Version 4 - Fix ATR (banda 1.5-2.5 ATR):
+- Stops operables (ROST ya no sale con R:B 14.76)
+- direccion long/short
 """
 
 
@@ -80,25 +84,51 @@ def _detectar_ruptura_estructura(precios):
         return False, "Estructura lateral/sin confirmar"
 
 
-def _calcular_stop_objetivo(precio, precios, mm50, atr):
-    """CORREGIDO v3: si max de 60 dias esta muy cerca, usa proyeccion ATR."""
-    if not precios or len(precios) < 20 or not precio:
+def _calcular_stop_objetivo(precio, precios, mm50, atr, direccion="long"):
+    """CORREGIDO v4: stop con banda ATR (1.5-2.5 ATR) para evitar stops rotos.
+
+    direccion: "long" para REVERSION/LONG, "short" para SHORT
+    """
+    if not precios or len(precios) < 20 or not precio or not atr:
         return None, None, None
+
     ultimos_10 = precios[-10:]
-    stop = min(ultimos_10) * 0.99
-    if mm50 and stop < mm50 < precio:
-        stop = max(stop, mm50 * 0.98)
-    max_60 = max(precios[-60:]) if len(precios) >= 60 else max(precios)
-    if max_60 <= precio * 1.02 and atr:
-        objetivo = precio + 3 * atr
+
+    if direccion == "long":
+        stop_base = min(ultimos_10) * 0.99
+        if mm50 and stop_base < mm50 < precio:
+            stop_base = max(stop_base, mm50 * 0.98)
+
+        stop_min_dist = precio - 1.5 * atr
+        stop_max_dist = precio - 2.5 * atr
+        stop = max(min(stop_base, stop_min_dist), stop_max_dist)
     else:
-        objetivo = max_60
-    if precio > stop and objetivo:
+        stop_base = max(ultimos_10) * 1.01
+        if mm50 and precio < mm50 < stop_base:
+            stop_base = min(stop_base, mm50 * 1.02)
+
+        stop_min_dist = precio + 1.5 * atr
+        stop_max_dist = precio + 2.5 * atr
+        stop = min(max(stop_base, stop_min_dist), stop_max_dist)
+
+    if direccion == "long":
+        max_60 = max(precios[-60:]) if len(precios) >= 60 else max(precios)
+        if max_60 <= precio * 1.02:
+            objetivo = precio + 3 * atr
+        else:
+            objetivo = max_60
         riesgo = precio - stop
         beneficio = objetivo - precio
-        rb = beneficio / riesgo if riesgo > 0 else None
     else:
-        rb = None
+        min_60 = min(precios[-60:]) if len(precios) >= 60 else min(precios)
+        if min_60 >= precio * 0.98:
+            objetivo = precio - 3 * atr
+        else:
+            objetivo = min_60
+        riesgo = stop - precio
+        beneficio = precio - objetivo
+
+    rb = beneficio / riesgo if riesgo > 0 else None
     return round(stop, 2), round(objetivo, 2), round(rb, 2) if rb else None
 
 
