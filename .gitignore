@@ -1,4 +1,4 @@
-﻿# Byte-compiled
+# Byte-compiled
 __pycache__/
 *.py[cod]
 *.so
@@ -35,7 +35,6 @@ _*.py
 !__*.py
 test_*.py
 # Archivos temporales de desarrollo
-motor/universe_swing.json
 
 # Backups y temporales
 *.bak
@@ -46,7 +45,10 @@ arreglar.ps1
 arreglar2.ps1
 
 # Archivos temporales de desarrollo
-motor/universe_swing.json
 *.bak*
 *.bak*
 *.bak*
+
+# Archivo temporal de progreso
+data/universo_progreso.json
+
