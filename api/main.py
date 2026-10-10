@@ -212,7 +212,7 @@ _reversion_lock = threading.Lock()
 _reversion_job_activo = {"job_id": None}
 
 
-def _run_reversion(job_id, max_tickers=300, top_n=15):
+def _run_reversion(job_id, max_tickers=500, top_n=15):
     """Ejecuta el escaneo de reversion en un hilo de background."""
     try:
         def progress_callback(i, total, msg):
@@ -253,7 +253,7 @@ def _run_reversion(job_id, max_tickers=300, top_n=15):
 
 
 @app.post("/api/reversion/start")
-def reversion_start(max_tickers: int = 300, top_n: int = 15):
+def reversion_start(max_tickers: int = 500, top_n: int = 15):
     """Arranca un escaneo de reversion. Devuelve job_id."""
     with _reversion_lock:
         ahora = time.time()

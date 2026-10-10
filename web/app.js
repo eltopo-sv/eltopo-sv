@@ -622,7 +622,7 @@ async function arrancarReversion() {
     `;
 
     try {
-        const res = await fetch(API_BASE_URL + "/api/reversion/start", { method: "POST" });
+        const res = await fetch(API_BASE_URL + "/api/reversion/start?max_tickers=500&top_n=15", { method: "POST" });
         const data = await res.json();
 
         if (data.error) {
