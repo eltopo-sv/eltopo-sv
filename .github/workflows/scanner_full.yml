@@ -1,0 +1,56 @@
+name: Scanner FULL ELTOPO (1786 tickers)
+
+permissions:
+  contents: write
+
+on:
+  # 4 ejecuciones L-V (horario invierno Espana)
+  schedule:
+    - cron: '0 7 * * 1-5'    # 09:00 Espana
+    - cron: '0 10 * * 1-5'   # 12:00 Espana
+    - cron: '0 13 * * 1-5'   # 15:00 Espana
+    - cron: '0 16 * * 1-5'   # 18:00 Espana
+
+  workflow_dispatch:
+
+jobs:
+  scanner_full:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scanner full
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          SCANNER_TOKEN: ${{ secrets.SCANNER_TOKEN }}
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: |
+          echo "Modo FULL: analizando universo completo"
+          python -c "from scanner.scanner import escanear_full; escanear_full(top_n_long=15, top_n_short=15, save_top_long=0)"
+
+      - name: Show result summary
+        run: |
+          python -c "import json; d=json.load(open('data/scanner_result_full.json')); print(f'Total: {d[\"total_analizados\"]} tickers en {d[\"tiempo_segundos\"]}s'); print(f'Fecha: {d[\"fecha\"]}')"
+
+      - name: Commit and push result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/scanner_result_full.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto: scanner_full $(date +'%Y-%m-%d %H:%M')"
+          git push

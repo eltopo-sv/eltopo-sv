@@ -1,0 +1,52 @@
+﻿# Byte-compiled
+__pycache__/
+*.py[cod]
+*.so
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Variables de entorno (SECRETAS)
+.env
+.env.local
+*.env
+
+# Base de datos local
+*.db
+data/cache.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+
+# Temporales
+_*.py
+!__*.py
+test_*.py
+# Archivos temporales de desarrollo
+motor/universe_swing.json
+
+# Backups y temporales
+*.bak
+*.bak_*
+backups/
+dump.txt
+arreglar.ps1
+arreglar2.ps1
+
+# Archivos temporales de desarrollo
+motor/universe_swing.json
+*.bak*
+*.bak*
+*.bak*

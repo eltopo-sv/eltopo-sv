@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELTOPO</title>
+    <link rel="icon" type="image/x-icon" href="images/icono.ico">
+    <link rel="icon" type="image/png" href="images/icono.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header con logo y toggle -->
+<header class="header">
+    <div class="header-top">
+        <div class="logo-wrap">
+            <img src="images/icono.png" alt="ELTOPO" class="logo-img" />
+            <span class="logo-text">ELTOPO</span>
+        </div>
+        <button class="theme-toggle" id="themeToggle">&#127769;</button>
+    </div>
+</header>
+
+<main class="content">
+
+    <!-- Buscador (siempre visible) -->
+    <div class="search-wrap">
+        <div class="search-box">
+            <span class="search-icon">&#9935;</span>
+            <input type="text" id="tickerInput" placeholder="Buscar acción o ticker..." autocomplete="off" />
+            <button class="btn-escarbar" id="btnEscarbar">Escarbar</button>
+        </div>
+    </div>
+
+    <!-- Pantalla de bienvenida -->
+    <div id="welcome" class="welcome">
+        <img src="images/logo.png" alt="ELTOPO" class="welcome-logo" />
+        <h1 class="welcome-title">ELTOPO</h1>
+        <p class="welcome-subtitle">Análisis técnico, fundamental y cuantitativo del mercado bursátil</p>
+    </div>
+
+    <!-- Botones de modulo -->
+    <div class="mode-selector">
+        <button class="mode-btn active" data-mode="tendencia">&#128200; TENDENCIA</button>
+        <button class="mode-btn" data-mode="reversion">&#128201;&#128200; REVERSION</button>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Analizando...</p>
+    </div>
+
+    <!-- Resultado del buscador individual -->
+    <div id="resultado" class="cards"></div>
+
+    <!-- VISTA TENDENCIA -->
+    <div id="viewTendencia" style="display: none;">
+
+        <div class="scanner-header">
+            <div class="scanner-titulo-wrap">
+                <h2 class="scanner-titulo">Tendencia</h2>
+                <p class="scanner-subtitulo" id="scannerMeta">Cargando...</p>
+            </div>
+            <button class="btn-refresh" id="btnRefreshScanner" title="Ejecutar scanner de nuevo (45s)">
+                &#128260; Actualizar
+            </button>
+        </div>
+
+        <div class="scanner-grid">
+
+            <div class="scanner-col scanner-col-long">
+                <div class="scanner-col-header">
+                    <span class="scanner-col-titulo">&#128994; TOP 15 LONG</span>
+                    <span class="scanner-col-hint">Mejores para comprar</span>
+                </div>
+                <div id="scannerLong" class="scanner-list"></div>
+            </div>
+
+            <div class="scanner-col scanner-col-short">
+                <div class="scanner-col-header">
+                    <span class="scanner-col-titulo">&#128308; TOP 15 SHORT</span>
+                    <span class="scanner-col-hint">Mejores para vender</span>
+                </div>
+                <div id="scannerShort" class="scanner-list"></div>
+            </div>
+
+        </div>
+
+        <p class="scanner-pie">
+            Click en un ticker para analizarlo con el motor completo
+        </p>
+
+    </div>
+
+  <div id="viewReversion" style="display: none;"></div>
+
+</main>
+
+<footer class="footer">
+    ELTOPO &copy; 2026 &mdash; Análisis técnico, fundamental y cuantitativo
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

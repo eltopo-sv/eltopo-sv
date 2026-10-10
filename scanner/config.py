@@ -1,0 +1,19 @@
+﻿# -*- coding: utf-8 -*-
+"""Configuracion del scanner."""
+
+MAX_TICKERS = 5158
+TOP_N_LONG = 15
+TOP_N_SHORT = 15
+MAX_WORKERS = 3
+
+PAUSA_CADA_TICKERS = 200
+PAUSA_SEGUNDOS = 2
+
+MIN_SCORE_LONG = 5.5
+MIN_SCORE_SHORT = 6.0
+
+MIN_PRECIO = 5
+MIN_VOLUMEN_MEDIO = 500000
+MIN_VELAS = 200
+
+TIMEFRAME = "swing"
