@@ -3,7 +3,7 @@
 // URL base del API
 const API_BASE_URL = window.location.hostname === "localhost"
     ? ""
-    : "https://eltopo.onrender.com";
+    : "";
 
 // -- Tema claro/oscuro --
 const themeToggle = document.getElementById("themeToggle");
