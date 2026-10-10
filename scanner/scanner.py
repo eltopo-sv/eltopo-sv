@@ -258,7 +258,8 @@ def escanear_reversion(tickers_file=None, top_n=15, max_tickers=300, progress_ca
         progress_callback(0, 0, "Cargando lista de tickers...")
 
     if tickers_file is None:
-        tickers_file = _ruta_top1000()
+        # Usar el universo completo (1786 tickers) en vez del top_1000
+        tickers_file = _ruta_universo()
 
     with open(tickers_file, "r", encoding="utf-8") as f:
         data = json.load(f)
