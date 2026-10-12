@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-10-12 07:31",
-  "total_analizados": 1650,
-  "tiempo_segundos": 1050.3,
+  "fecha": "2026-10-12 10:51",
+  "total_analizados": 1660,
+  "tiempo_segundos": 1965.9,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -317,32 +317,6 @@
       }
     },
     {
-      "ticker": "HCA",
-      "score_long": 8.53,
-      "score_short": 2.92,
-      "precio": 451.17,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 5.5,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 5.5,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "BP",
       "score_long": 8.53,
       "score_short": 2.92,
@@ -390,6 +364,32 @@
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "SNAP",
+      "score_long": 8.53,
+      "score_short": 3.1,
+      "precio": 6.235,
+      "desglose_long": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 5.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
@@ -683,6 +683,32 @@
       }
     },
     {
+      "ticker": "AVO",
+      "score_long": 4.25,
+      "score_short": 8.7,
+      "precio": 11.745,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 4.5,
+        "volumen": 10.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 10.0,
+        "estructura": 8.0,
+        "fuerza_relativa": 8.5,
+        "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
       "ticker": "MS",
       "score_long": 3.73,
       "score_short": 8.68,
@@ -716,32 +742,6 @@
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
-        "volumen": 5.5,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 5.5,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "SCHW",
-      "score_long": 3.33,
-      "score_short": 8.68,
-      "precio": 96.7,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
         "volumen": 5.5,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
