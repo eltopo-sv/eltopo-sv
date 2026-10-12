@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-10-10 14:08",
+  "fecha": "2026-10-12 07:31",
   "total_analizados": 1650,
-  "tiempo_segundos": 478.2,
+  "tiempo_segundos": 1050.3,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -657,32 +657,6 @@
       }
     },
     {
-      "ticker": "IRTC",
-      "score_long": 3.4,
-      "score_short": 8.7,
-      "precio": 106.58,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "TDOC",
       "score_long": 3.4,
       "score_short": 8.7,
@@ -703,32 +677,6 @@
         "volumen": 7.0,
         "estructura": 10.0,
         "fuerza_relativa": 10.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "AVO",
-      "score_long": 4.25,
-      "score_short": 8.7,
-      "precio": 11.745,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 4.5,
-        "volumen": 10.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 10.0,
-        "estructura": 8.0,
-        "fuerza_relativa": 8.5,
         "volatilidad": 5.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
@@ -768,6 +716,58 @@
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
+        "volumen": 5.5,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 5.5,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "SCHW",
+      "score_long": 3.33,
+      "score_short": 8.68,
+      "precio": 96.7,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 5.5,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 5.5,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "CP",
+      "score_long": 3.33,
+      "score_short": 8.68,
+      "precio": 84.47,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
         "volumen": 5.5,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
