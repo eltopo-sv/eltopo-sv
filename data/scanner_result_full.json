@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-10-15 07:44",
-  "total_analizados": 1646,
-  "tiempo_segundos": 966.0,
+  "fecha": "2026-10-15 11:00",
+  "total_analizados": 1648,
+  "tiempo_segundos": 1970.3,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -657,32 +657,6 @@
       }
     },
     {
-      "ticker": "FFIN",
-      "score_long": 4.1,
-      "score_short": 8.9,
-      "precio": 30.89,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 4.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "PAAS",
       "score_long": 4.25,
       "score_short": 8.78,
@@ -780,6 +754,32 @@
         "momentum": 8.0,
         "volumen": 8.0,
         "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "T",
+      "score_long": 3.7,
+      "score_short": 8.75,
+      "precio": 23.085,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 8.0,
         "fuerza_relativa": 10.0,
         "volatilidad": 9.0,
         "catalizadores": 5.0,
