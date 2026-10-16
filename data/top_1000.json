@@ -1,6 +1,6 @@
 {
-  "fecha": "2026-10-16 21:47",
-  "total": 836,
+  "fecha": "2026-10-16 22:51",
+  "total": 837,
   "tickers": [
     "DRH",
     "HCA",
@@ -321,8 +321,8 @@
     "PSO",
     "AMGN",
     "BP",
-    "COR",
     "COP",
+    "COR",
     "CRBG",
     "HALO",
     "HST",
@@ -817,6 +817,7 @@
     "LITE",
     "MRVI",
     "SBET",
+    "XNCR",
     "AMZN",
     "AXTA",
     "BAND",
