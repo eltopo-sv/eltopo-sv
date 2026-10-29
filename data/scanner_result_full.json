@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-10-29 07:59",
-  "total_analizados": 1646,
-  "tiempo_segundos": 792.6,
+  "fecha": "2026-10-29 11:06",
+  "total_analizados": 1645,
+  "tiempo_segundos": 1482.2,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -475,32 +475,6 @@
       }
     },
     {
-      "ticker": "SF",
-      "score_long": 4.55,
-      "score_short": 8.9,
-      "precio": 66.85,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 6.0,
-        "volumen": 9.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 8.0,
-        "volumen": 9.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "ODFL",
       "score_long": 4.05,
       "score_short": 8.85,
@@ -781,6 +755,32 @@
         "volumen": 9.0,
         "estructura": 10.0,
         "fuerza_relativa": 8.5,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "SF",
+      "score_long": 4.0,
+      "score_short": 8.75,
+      "precio": 66.87999725341797,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 4.0,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 8.0,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
         "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
