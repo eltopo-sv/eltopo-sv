@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-02 11:22",
-  "total_analizados": 1637,
-  "tiempo_segundos": 1770.6,
+  "fecha": "2026-11-02 14:28",
+  "total_analizados": 1645,
+  "tiempo_segundos": 1789.0,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -631,6 +631,32 @@
       }
     },
     {
+      "ticker": "JBL",
+      "score_long": 3.4,
+      "score_short": 8.6,
+      "precio": 272.81,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 8.5,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
       "ticker": "AMBA",
       "score_long": 4.0,
       "score_short": 8.6,
@@ -742,32 +768,6 @@
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
-        "volumen": 5.5,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 5.5,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "UBER",
-      "score_long": 3.33,
-      "score_short": 8.53,
-      "precio": 65.235,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
         "volumen": 5.5,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
