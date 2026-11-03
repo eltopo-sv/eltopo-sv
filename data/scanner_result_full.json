@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-03 11:23",
-  "total_analizados": 1641,
-  "tiempo_segundos": 1940.4,
+  "fecha": "2026-11-03 14:27",
+  "total_analizados": 1644,
+  "tiempo_segundos": 1649.5,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -57,32 +57,6 @@
       }
     },
     {
-      "ticker": "COP",
-      "score_long": 9.05,
-      "score_short": 3.7,
-      "precio": 146.88,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "PFE",
       "score_long": 9.05,
       "score_short": 3.3,
@@ -100,6 +74,32 @@
       "desglose_short": {
         "tendencia": 2.0,
         "momentum": 0.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "COP",
+      "score_long": 9.05,
+      "score_short": 3.7,
+      "precio": 146.88,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
         "volumen": 8.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
@@ -423,32 +423,6 @@
       }
     },
     {
-      "ticker": "KT",
-      "score_long": 3.55,
-      "score_short": 8.75,
-      "precio": 17.360000610351562,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "SNDR",
       "score_long": 3.55,
       "score_short": 8.75,
@@ -527,32 +501,6 @@
       }
     },
     {
-      "ticker": "FTI",
-      "score_long": 3.75,
-      "score_short": 8.55,
-      "precio": 66.87,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 3.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 7.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "XYL",
       "score_long": 3.4,
       "score_short": 8.55,
@@ -573,6 +521,32 @@
         "volumen": 7.0,
         "estructura": 10.0,
         "fuerza_relativa": 8.5,
+        "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "FTI",
+      "score_long": 3.75,
+      "score_short": 8.55,
+      "precio": 66.87,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 3.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 7.0,
         "volatilidad": 5.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
@@ -626,6 +600,32 @@
         "estructura": 10.0,
         "fuerza_relativa": 8.5,
         "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "KT",
+      "score_long": 3.33,
+      "score_short": 8.53,
+      "precio": 17.35,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 5.5,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 5.5,
+        "estructura": 10.0,
+        "fuerza_relativa": 8.5,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
