@@ -1,35 +1,9 @@
 {
-  "fecha": "2026-11-04 08:16",
-  "total_analizados": 1642,
-  "tiempo_segundos": 687.2,
+  "fecha": "2026-11-04 11:35",
+  "total_analizados": 1644,
+  "tiempo_segundos": 1936.6,
   "universo_usado": 1786,
   "top_long": [
-    {
-      "ticker": "KDP",
-      "score_long": 9.35,
-      "score_short": 4.0,
-      "precio": 34.72,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 10.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 10.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
     {
       "ticker": "TREX",
       "score_long": 9.35,
@@ -49,6 +23,32 @@
         "tendencia": 2.0,
         "momentum": 0.5,
         "volumen": 10.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "KDP",
+      "score_long": 9.2,
+      "score_short": 3.85,
+      "precio": 34.7400016784668,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 9.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 9.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 9.0,
@@ -213,32 +213,6 @@
       }
     },
     {
-      "ticker": "PG",
-      "score_long": 8.9,
-      "score_short": 3.15,
-      "precio": 162.055,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "WAT",
       "score_long": 8.9,
       "score_short": 3.5,
@@ -295,6 +269,32 @@
       "score_long": 8.9,
       "score_short": 3.15,
       "precio": 393.785,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "LAMR",
+      "score_long": 8.9,
+      "score_short": 3.15,
+      "precio": 156.7899932861328,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
