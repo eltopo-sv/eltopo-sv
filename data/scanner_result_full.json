@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-05 11:27",
-  "total_analizados": 1645,
-  "tiempo_segundos": 1818.9,
+  "fecha": "2026-11-05 14:32",
+  "total_analizados": 1646,
+  "tiempo_segundos": 1524.4,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -291,32 +291,6 @@
       }
     },
     {
-      "ticker": "AEP",
-      "score_long": 8.9,
-      "score_short": 3.7,
-      "precio": 129.24000549316406,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "CAH",
       "score_long": 8.9,
       "score_short": 3.15,
@@ -390,6 +364,32 @@
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "NIQ",
+      "score_long": 8.9,
+      "score_short": 3.15,
+      "precio": 20.26,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
@@ -608,7 +608,7 @@
       "ticker": "ZWS",
       "score_long": 3.9,
       "score_short": 8.7,
-      "precio": 45.150001525878906,
+      "precio": 45.285,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 2.5,
