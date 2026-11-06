@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-06 08:08",
+  "fecha": "2026-11-06 11:17",
   "total_analizados": 1650,
-  "tiempo_segundos": 476.7,
+  "tiempo_segundos": 1276.4,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -83,10 +83,10 @@
       }
     },
     {
-      "ticker": "ECL",
+      "ticker": "CTAS",
       "score_long": 9.2,
       "score_short": 3.45,
-      "precio": 305.775,
+      "precio": 226.4,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
@@ -109,10 +109,10 @@
       }
     },
     {
-      "ticker": "CTAS",
+      "ticker": "ECL",
       "score_long": 9.2,
       "score_short": 3.45,
-      "precio": 226.4,
+      "precio": 305.775,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
