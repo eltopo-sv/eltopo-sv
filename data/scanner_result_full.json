@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-09 08:19",
+  "fecha": "2026-11-09 11:13",
   "total_analizados": 1655,
-  "tiempo_segundos": 512.6,
+  "tiempo_segundos": 1323.2,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -153,32 +153,6 @@
         "tendencia": 2.0,
         "momentum": 0.5,
         "volumen": 10.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "ADP",
-      "score_long": 8.9,
-      "score_short": 3.15,
-      "precio": 303.3,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 7.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 9.0,
@@ -390,6 +364,32 @@
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "REYN",
+      "score_long": 8.9,
+      "score_short": 3.55,
+      "precio": 24.1,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
