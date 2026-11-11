@@ -1,17 +1,17 @@
 {
-  "fecha": "2026-11-09 22:04",
-  "total_analizados": 1994,
-  "tiempo_segundos": 1488.5,
+  "fecha": "2026-11-11 02:14",
+  "total_analizados": 1998,
+  "tiempo_segundos": 1768.3,
   "top_long": [
     {
-      "ticker": "FMX",
-      "score_long": 9.2,
-      "score_short": 3.45,
-      "precio": 131.23,
+      "ticker": "ALC",
+      "score_long": 9.35,
+      "score_short": 3.6,
+      "precio": 74.19,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
-        "volumen": 9.0,
+        "volumen": 10.0,
         "estructura": 10.0,
         "fuerza_relativa": 10.0,
         "volatilidad": 9.0,
@@ -21,7 +21,7 @@
       "desglose_short": {
         "tendencia": 2.0,
         "momentum": 0.5,
-        "volumen": 9.0,
+        "volumen": 10.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 9.0,
@@ -30,62 +30,10 @@
       }
     },
     {
-      "ticker": "AVA",
-      "score_long": 9.05,
-      "score_short": 3.3,
-      "precio": 40.06,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "GBCI",
-      "score_long": 9.05,
-      "score_short": 3.3,
-      "precio": 49.07,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "LAMR",
+      "ticker": "ASH",
       "score_long": 9.05,
       "score_short": 3.6,
-      "precio": 158.67,
+      "precio": 76.8,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
@@ -100,32 +48,6 @@
         "tendencia": 2.0,
         "momentum": 0.5,
         "volumen": 10.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "PYPL",
-      "score_long": 9.05,
-      "score_short": 3.3,
-      "precio": 60.03,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 8.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 9.0,
@@ -136,13 +58,39 @@
     {
       "ticker": "TDG",
       "score_long": 9.05,
-      "score_short": 3.6,
-      "precio": 1221.06,
+      "score_short": 3.3,
+      "precio": 1226.14,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "SMA",
+      "score_long": 8.97,
+      "score_short": 3.6,
+      "precio": 38.62,
+      "desglose_long": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
         "volumen": 10.0,
-        "estructura": 8.0,
+        "estructura": 10.0,
         "fuerza_relativa": 10.0,
         "volatilidad": 9.0,
         "catalizadores": 5.0,
@@ -160,27 +108,27 @@
       }
     },
     {
-      "ticker": "FTS",
-      "score_long": 8.98,
-      "score_short": 3.23,
-      "precio": 59.525,
+      "ticker": "AVA",
+      "score_long": 8.9,
+      "score_short": 3.15,
+      "precio": 40.2,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
-        "volumen": 8.0,
+        "volumen": 7.0,
         "estructura": 10.0,
         "fuerza_relativa": 10.0,
-        "volatilidad": 7.5,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       },
       "desglose_short": {
         "tendencia": 2.0,
         "momentum": 0.5,
-        "volumen": 8.0,
+        "volumen": 7.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
-        "volatilidad": 7.5,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
@@ -212,36 +160,10 @@
       }
     },
     {
-      "ticker": "RDNT",
-      "score_long": 8.9,
-      "score_short": 3.4,
-      "precio": 78.4,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 10.0,
-        "estructura": 8.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 0.5,
-        "volumen": 10.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "YUM",
+      "ticker": "BUD",
       "score_long": 8.9,
       "score_short": 3.15,
-      "precio": 160.925,
+      "precio": 86.07,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 9.5,
@@ -264,10 +186,88 @@
       }
     },
     {
-      "ticker": "TGTX",
+      "ticker": "DUK",
+      "score_long": 8.9,
+      "score_short": 3.15,
+      "precio": 128.97,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "FMX",
+      "score_long": 8.9,
+      "score_short": 3.15,
+      "precio": 132.49,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "PGR",
+      "score_long": 8.9,
+      "score_short": 4.15,
+      "precio": 231.73,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 8.0,
+        "volumen": 9.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 4.0,
+        "volumen": 9.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "LFST",
       "score_long": 8.83,
       "score_short": 3.4,
-      "precio": 63.47,
+      "precio": 14.555,
       "desglose_long": {
         "tendencia": 8.5,
         "momentum": 9.5,
@@ -290,105 +290,105 @@
       }
     },
     {
-      "ticker": "HIW",
-      "score_long": 8.75,
-      "score_short": 3.7,
-      "precio": 31.49,
+      "ticker": "VCTR",
+      "score_long": 8.83,
+      "score_short": 3.4,
+      "precio": 126.455,
       "desglose_long": {
-        "tendencia": 10.0,
+        "tendencia": 8.5,
         "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 8.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "HRB",
-      "score_long": 8.75,
-      "score_short": 3.35,
-      "precio": 51.08,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
+        "volumen": 10.0,
         "estructura": 10.0,
         "fuerza_relativa": 10.0,
         "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "MEOH",
-      "score_long": 8.75,
-      "score_short": 3.35,
-      "precio": 66.48,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "PNFP",
-      "score_long": 8.75,
-      "score_short": 3.3,
-      "precio": 102.93,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 8.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       },
       "desglose_short": {
         "tendencia": 2.0,
         "momentum": 0.5,
-        "volumen": 8.0,
+        "volumen": 10.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
+        "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "EPAC",
+      "score_long": 8.75,
+      "score_short": 3.35,
+      "precio": 39.73,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "FA",
+      "score_long": 8.75,
+      "score_short": 3.7,
+      "precio": 21.55,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 8.0,
+        "volumen": 10.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 10.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "HUM",
+      "score_long": 8.75,
+      "score_short": 2.95,
+      "precio": 437.97,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 5.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
@@ -396,26 +396,52 @@
   ],
   "top_short": [
     {
-      "ticker": "DEC",
-      "score_long": 4.45,
-      "score_short": 8.85,
-      "precio": 12.92,
+      "ticker": "LEA",
+      "score_long": 4.1,
+      "score_short": 8.9,
+      "precio": 109.56,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
-        "volumen": 10.0,
+        "volumen": 8.0,
         "estructura": 3.0,
-        "fuerza_relativa": 3.0,
-        "volatilidad": 6.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       },
       "desglose_short": {
         "tendencia": 10.0,
         "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 8.5,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "ETD",
+      "score_long": 4.25,
+      "score_short": 8.78,
+      "precio": 18.03,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 4.5,
+        "volumen": 10.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
         "volumen": 10.0,
         "estructura": 10.0,
-        "fuerza_relativa": 7.0,
+        "fuerza_relativa": 10.0,
         "volatilidad": 5.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
@@ -448,10 +474,10 @@
       }
     },
     {
-      "ticker": "INGR",
+      "ticker": "INMD",
       "score_long": 3.9,
       "score_short": 8.75,
-      "precio": 92.78,
+      "precio": 13.265,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 2.5,
@@ -474,10 +500,10 @@
       }
     },
     {
-      "ticker": "OFIX",
+      "ticker": "CRSP",
       "score_long": 3.7,
       "score_short": 8.68,
-      "precio": 7.92,
+      "precio": 45.21,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 2.5,
@@ -500,10 +526,10 @@
       }
     },
     {
-      "ticker": "ASML",
+      "ticker": "AMSC",
       "score_long": 3.25,
       "score_short": 8.6,
-      "precio": 1512.82,
+      "precio": 25.44,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 2.5,
@@ -521,162 +547,6 @@
         "estructura": 10.0,
         "fuerza_relativa": 10.0,
         "volatilidad": 3.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "GSBD",
-      "score_long": 4.0,
-      "score_short": 8.6,
-      "precio": 8.585,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 4.0,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 8.0,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "INVA",
-      "score_long": 4.1,
-      "score_short": 8.6,
-      "precio": 19.0,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 4.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 8.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "UMH",
-      "score_long": 3.75,
-      "score_short": 8.6,
-      "precio": 14.735,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 3.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 7.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "APTV",
-      "score_long": 3.4,
-      "score_short": 8.55,
-      "precio": 39.94,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "NMIH",
-      "score_long": 3.75,
-      "score_short": 8.55,
-      "precio": 38.87,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 8.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 3.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 8.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 7.0,
-        "volatilidad": 5.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "NWS",
-      "score_long": 3.4,
-      "score_short": 8.55,
-      "precio": 29.33,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 6.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 8.5,
-        "volatilidad": 5.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
@@ -685,7 +555,7 @@
       "ticker": "NWSA",
       "score_long": 3.8,
       "score_short": 8.55,
-      "precio": 26.57,
+      "precio": 26.61,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
@@ -708,10 +578,10 @@
       }
     },
     {
-      "ticker": "SCI",
+      "ticker": "NWS",
       "score_long": 3.75,
       "score_short": 8.55,
-      "precio": 73.125,
+      "precio": 29.81,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 2.5,
@@ -734,36 +604,10 @@
       }
     },
     {
-      "ticker": "BKD",
-      "score_long": 3.55,
-      "score_short": 8.53,
-      "precio": 9.305,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 9.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 3.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 8.5,
-        "momentum": 9.5,
-        "volumen": 9.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 3.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "CLH",
+      "ticker": "INVA",
       "score_long": 3.73,
       "score_short": 8.53,
-      "precio": 287.475,
+      "precio": 19.085,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
@@ -781,6 +625,162 @@
         "estructura": 10.0,
         "fuerza_relativa": 8.5,
         "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "TSM",
+      "score_long": 3.17,
+      "score_short": 8.48,
+      "precio": 396.54,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 5.5,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 6.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 5.5,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 5.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "NTLA",
+      "score_long": 3.25,
+      "score_short": 8.45,
+      "precio": 11.16,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 8.5,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "ASML",
+      "score_long": 3.02,
+      "score_short": 8.38,
+      "precio": 1507.69,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 5.5,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 5.5,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "BKD",
+      "score_long": 3.4,
+      "score_short": 8.38,
+      "precio": 9.385,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "CYTK",
+      "score_long": 3.4,
+      "score_short": 8.38,
+      "precio": 56.24,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "ENS",
+      "score_long": 3.4,
+      "score_short": 8.38,
+      "precio": 151.63,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 3.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
