@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-16 22:55",
-  "total_analizados": 1651,
-  "tiempo_segundos": 806.4,
+  "fecha": "2026-11-17 00:22",
+  "total_analizados": 1653,
+  "tiempo_segundos": 1574.5,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -213,32 +213,6 @@
       }
     },
     {
-      "ticker": "TXRH",
-      "score_long": 8.9,
-      "score_short": 3.55,
-      "precio": 189.0,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 7.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "CL",
       "score_long": 8.82,
       "score_short": 3.45,
@@ -393,35 +367,35 @@
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
-    }
-  ],
-  "top_short": [
+    },
     {
-      "ticker": "BWXT",
-      "score_long": 3.7,
-      "score_short": 8.68,
-      "precio": 116.985,
+      "ticker": "HD",
+      "score_long": 8.68,
+      "score_short": 3.3,
+      "precio": 347.65,
       "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 10.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 3.0,
+        "tendencia": 8.5,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       },
       "desglose_short": {
-        "tendencia": 8.5,
-        "momentum": 9.5,
-        "volumen": 10.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 3.0,
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
-    },
+    }
+  ],
+  "top_short": [
     {
       "ticker": "FANG",
       "score_long": 4.25,
@@ -556,7 +530,7 @@
       "ticker": "FTI",
       "score_long": 3.6,
       "score_short": 8.4,
-      "precio": 63.8,
+      "precio": 63.810001373291016,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 2.5,
@@ -626,6 +600,32 @@
         "estructura": 10.0,
         "fuerza_relativa": 8.5,
         "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "BWXT",
+      "score_long": 3.4,
+      "score_short": 8.38,
+      "precio": 117.08999633789062,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 8.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 8.5,
+        "momentum": 9.5,
+        "volumen": 8.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 3.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
