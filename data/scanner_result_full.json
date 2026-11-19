@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-19 21:17",
+  "fecha": "2026-11-19 23:10",
   "total_analizados": 1648,
-  "tiempo_segundos": 592.8,
+  "tiempo_segundos": 1124.2,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -712,7 +712,7 @@
       "ticker": "GAP",
       "score_long": 4.1,
       "score_short": 8.38,
-      "precio": 18.89,
+      "precio": 18.790000915527344,
       "desglose_long": {
         "tendencia": 2.0,
         "momentum": 4.5,
