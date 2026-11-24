@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-11-24 00:42",
-  "total_analizados": 1648,
-  "tiempo_segundos": 626.9,
+  "fecha": "2026-11-24 03:18",
+  "total_analizados": 1651,
+  "tiempo_segundos": 2109.2,
   "universo_usado": 1786,
   "top_long": [
     {
@@ -161,6 +161,32 @@
       }
     },
     {
+      "ticker": "FE",
+      "score_long": 8.68,
+      "score_short": 2.92,
+      "precio": 47.540000915527344,
+      "desglose_long": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 5.5,
+        "estructura": 10.0,
+        "fuerza_relativa": 10.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 2.0,
+        "momentum": 0.5,
+        "volumen": 5.5,
+        "estructura": 3.0,
+        "fuerza_relativa": 1.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
       "ticker": "TCBI",
       "score_long": 8.68,
       "score_short": 3.33,
@@ -265,10 +291,10 @@
       }
     },
     {
-      "ticker": "LYV",
+      "ticker": "ED",
       "score_long": 8.6,
       "score_short": 3.85,
-      "precio": 180.9,
+      "precio": 118.5,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 8.0,
@@ -291,10 +317,10 @@
       }
     },
     {
-      "ticker": "ED",
+      "ticker": "LYV",
       "score_long": 8.6,
       "score_short": 3.85,
-      "precio": 118.5,
+      "precio": 180.9,
       "desglose_long": {
         "tendencia": 10.0,
         "momentum": 8.0,
@@ -361,32 +387,6 @@
         "tendencia": 2.0,
         "momentum": 4.0,
         "volumen": 7.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 1.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
-      "ticker": "SJM",
-      "score_long": 8.6,
-      "score_short": 4.15,
-      "precio": 132.71,
-      "desglose_long": {
-        "tendencia": 10.0,
-        "momentum": 6.5,
-        "volumen": 9.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 10.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 2.0,
-        "momentum": 4.0,
-        "volumen": 9.0,
         "estructura": 3.0,
         "fuerza_relativa": 1.0,
         "volatilidad": 9.0,
@@ -709,32 +709,6 @@
       }
     },
     {
-      "ticker": "CFG",
-      "score_long": 4.45,
-      "score_short": 8.5,
-      "precio": 60.84,
-      "desglose_long": {
-        "tendencia": 2.0,
-        "momentum": 2.5,
-        "volumen": 9.0,
-        "estructura": 3.0,
-        "fuerza_relativa": 7.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      },
-      "desglose_short": {
-        "tendencia": 10.0,
-        "momentum": 9.5,
-        "volumen": 9.0,
-        "estructura": 10.0,
-        "fuerza_relativa": 3.0,
-        "volatilidad": 9.0,
-        "catalizadores": 5.0,
-        "fundamental": 5.0
-      }
-    },
-    {
       "ticker": "KEP",
       "score_long": 4.1,
       "score_short": 8.47,
@@ -782,6 +756,32 @@
         "estructura": 10.0,
         "fuerza_relativa": 8.5,
         "volatilidad": 3.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      }
+    },
+    {
+      "ticker": "PLD",
+      "score_long": 3.95,
+      "score_short": 8.4,
+      "precio": 125.15,
+      "desglose_long": {
+        "tendencia": 2.0,
+        "momentum": 2.5,
+        "volumen": 7.0,
+        "estructura": 3.0,
+        "fuerza_relativa": 5.0,
+        "volatilidad": 9.0,
+        "catalizadores": 5.0,
+        "fundamental": 5.0
+      },
+      "desglose_short": {
+        "tendencia": 10.0,
+        "momentum": 9.5,
+        "volumen": 7.0,
+        "estructura": 10.0,
+        "fuerza_relativa": 5.0,
+        "volatilidad": 9.0,
         "catalizadores": 5.0,
         "fundamental": 5.0
       }
